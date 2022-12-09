@@ -1,6 +1,4 @@
 const { getAll, getByName, findById, findAll } = require('../database/models/main.model');
-const { port } = require('../modules/port');
-
 
 module.exports = {
     findAll: async (req, res) => {

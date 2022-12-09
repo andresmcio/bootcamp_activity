@@ -1,13 +1,13 @@
 const axios = require('axios');
 const {MongoClient} = require('mongodb');
 
-const uri = 'mongodb://localhost:27017/';
+const uri = 'mongodb://mongodb-container:27017/';
 const client = new MongoClient(uri);
 
 const dbName = 'rick_and_morty';
 
 const db = client.db(dbName);
-const colection = db.collection('characters');
+const collection = db.collection('characters');
 
 async function main() {
     try {
