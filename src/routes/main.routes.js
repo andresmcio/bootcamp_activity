@@ -4,8 +4,8 @@ const { findAll, findBYName, updateStatus, deleteCharacter, loadData } = require
 
 router.get("/", findAll);
 router.get("/load", loadData);
-/* router.get("/:name", findBYName);
-router.delete("/:id", deleteCharacter);
-router.put("/?id=:id&status=:status", updateStatus); */
+router.get("/query/?", findBYName);
+router.put("/query/?", updateStatus);
+router.delete("/query/?", deleteCharacter);
 
 module.exports = router;
