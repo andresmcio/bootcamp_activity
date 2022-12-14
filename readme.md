@@ -1,4 +1,4 @@
-Una vez iniciados los contenedores de la base de datos, para cargar documentos a la misma, se debe apuntar por get a /load (ejemplo: //localhost:12345/load). Esto traerá de la api de Rick and Morty los personajes, pero creará un objeto solo con ciertos campos.
+Una vez iniciados los contenedores de la base de datos y la API, para cargar documentos a la misma, se debe apuntar por get a /load (ejemplo: //localhost:12345/load). Esto traerá de la api de Rick and Morty los personajes, pero creará un objeto solo con ciertos campos.
 
 {
     id: identificador del personaje según la api,
